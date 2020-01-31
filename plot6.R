@@ -6,6 +6,8 @@
 #has seen greater changes over time in motor vehicle emissions?
 #
 
+library(dplyr)
+library(ggplot2)
 
 ## This first line will likely take a few seconds. Be patient!
 NEI <- readRDS("summarySCC_PM25.rds")
